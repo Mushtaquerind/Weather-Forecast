@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    background-color: #122D4A;
+}
+
+.forecast-container {
+    width: 20%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.icon1 {
+    width: 30px;
+    height: 30px;
+    background-color: #a9a8a8;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+span {
+    margin: 0 5px;
+}
+
+.temperature {
+    font-size: 14px;
+    color: #e74c3c;
+}
+
+.description {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+h3 {
+    margin: 20px 0 10px;
+    font-weight: 300;
+    color: white;
+}
+
+.forecast-row {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #0A1D30;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.forecast-row-today{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #0A1D30;
+    margin-top: 10px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.forecast-Saturday{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #0A1D30;
+    margin-top: 10px;
+    color: white;
+    border-top-radius: 10px;
+    border-top-radius: 10px;
+}
+.forecast-row:last-child {
+    border-bottom: none;
+}
+
+.top-row {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bottom-row {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.date {
+    flex: 1;
+    font-weight: 300;
+    font-size: 11px;
+}
